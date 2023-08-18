@@ -15,4 +15,4 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 add_executable(test main.cpp ${SOURCE})
 
 #获取cpp文件资源
-#target_link_libraries( test src)
+target_link_libraries( test src)
